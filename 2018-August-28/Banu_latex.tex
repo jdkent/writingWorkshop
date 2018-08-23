@@ -1,0 +1,123 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\textbf{Paper title: Chronic prenatal interleukin-17 is sufficient to
+cause sex-specific~ASD-phenotypes in a mouse model}
+
+\textbf{Introduction}
+
+Pro-inflammatory maternal immune activation (MIA) during gestation has
+been associated with autism spectrum disorder (ASD) in clinical
+populations (1, 2), with some further suggesting that maternal
+immunological perturbations may serve a direct, causal role in its
+pathogenesis (3, 4). Specifically, studies in both humans and animal
+models have implicated elevated \emph{maternal} interleukin-17 (IL-17),
+a key pro-inflammatory cytokine, in offspring ASD and ASD-related
+phenotypes (5). The dysregulation of both T helper 17 (Th17)
+lymphocytes, a subpopulation of CD4 + T cells that secrete IL-17 family
+cytokines, and elevated levels of IL-17A have also been linked directly
+to ASD \emph{within individuals} (6, 7), as have copy-number variants in
+the \emph{IL17} gene (8). One cross-sectional study reported that nearly
+50\% of children with ASD (and nearly 70\% with severe ASD) had
+above-average levels of serum IL-17a (9). Interestingly, serum levels of
+IL-17 have also been shown to be increased in children with ASD who
+experienced symptomatic regression compared to those who did not regress
+(10).
+
+In animals, behavioral phenotypes thought to model dimensions of ASD
+have previously been shown to be sensitive to broad prenatal immune
+insult (11-13). More specifically, research has implicated IL-17A
+signaling as necessary for the effects of gestational poly(I:C), a viral
+mimetic and MIA model, on mouse offspring ASD-like phenotypes. Choi et
+al. (2016) demonstrated that the selective inhibition of IL-17-producing
+Th17 cells by genetic deletion of a transcription factor critical to
+their development (RORyt), or maternal pre-treatment with IL-17a
+blocking antibody, resulted in a rescue of MIA-associated ASD-like
+behaviors, including social and repetitive/stereotyped behaviors, as
+well as cortical disorganization (14). Cortical ``patches'' or
+disorganized regions of cortex have also been implicated in human ASD
+(15). Subsequent work by the same group further revealed that these
+phenotypes may be due to hyperactivity of pyramidal neurons and
+decreased GABAergic drive in the primary somatosensory cortex (16).
+Critically, this work reveals that maternal mechanisms, mediated by
+IL-17, may underlie ASD-like effects in MIA offspring.
+
+IL-17 can act both via maternal systems to influence neurodevelopment,
+but also directly on neurons themselves. For instance, IL-17 mechanisms
+can alter cell differentiation, survival, and signaling (5). Liu et al.
+(2014) demonstrated that IL-17a regulates adult hippocampal
+neurogenesis, the levels of other pro- and anti-inflammatory cytokines
+in the hippocampal dentate gyrus, and hippocampal electrophysiology,
+such that IL-17a knockout animals exhibit increased dentate synaptic
+excitability and hippocampal neurogenesis (17).
+
+While it has been shown that IL-17 pathways mediate and are necessary
+for the effects of MIA on offspring neurodevelopment and behavior, no
+studies have yet examined whether chronic, maternal IL-17 throughout
+pregnancy is in fact sufficient to induce these effects. To better
+understand the neurodevelopmental programming role of this specific
+inflammatory factor, we exposed dams to IL-17 continuously throughout
+gestation. Using a combination of behavioral, genetic, and histological
+approaches, we found that embryonic cortical morphogenesis and cortical
+transcriptomic profiles, as well as adult neurobiology and behavior, in
+male offspring are altered by prenatal maternal IL-17. This work
+underscores the causal role of maternal IL-17 in the generation of
+ASD-relevant phenotypes in offspring.
+
+\end{document}
