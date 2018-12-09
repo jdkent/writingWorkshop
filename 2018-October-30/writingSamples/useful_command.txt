@@ -1,0 +1,1 @@
+pandoc -s -t latex -o heslin.tex Heslin_WIN_Submission.docx

@@ -1,0 +1,155 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\textbf{Here, I tried to convey the basic need for finding new methods
+of measuring inhibition in human subjects, other than TMS. If it feels
+somewhat congested, this is because I wanted to challenge myself and see
+if could fit a full idea of\ldots{}.}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{TMS as a tool for measuring Inhibition}
+\item
+  \textbf{Problems with this method}
+\item
+  \textbf{Possible new method}
+\end{enumerate}
+
+\textbf{\ldots{}. in the 500 words allowed. I hope that you will take
+this as somewhat of a ``break'' from the more rigorous, and frankly
+better, submissions we have read thus far. }
+
+\textbf{My main concern is how well I was able to communicate the above
+ideas, in a way that comes off as summary, but is also understandable
+and not to scatter-shot. I suppose it could be read like an Introduction
+to a longer paper, so any suggestions on making it feel more like that,
+would be swell!! }
+
+\textbf{I have included figures as a visual aid. }
+
+\textbf{See you all soon!}
+
+\textbf{\emph{Looking towards non-TMS methods of Cortical-Spinal
+Inhibition}}
+
+Transcranial Magnetic Stimulation (TMS) provides relatively focal and
+well tolerated stimulations of neuronal populations, while remaining
+non-invasive. When applied over primary motor cortex (M1), TMS produces
+a corresponding spike in muscular activity known as a Motor Evoked
+Potential (MEP, Figure 1.). If the cortical neurons responsible for the
+movement of that muscle are experiencing inhibition (GABAergic) at the
+time of the TMS pulse, their neurotransmitter release will be shunted,
+and the MEP will have decreased amplitude (Cortico-Spinal Inhibition,
+Figure 2.). TMS remains as one of the primary tools for the measurement
+of inhibition at the cortical level, with applications for pharmacology,
+physical therapy and cognitive studies.
+
+However, TMS presents both experimental issues and unexplained phenomena
+that must be taken into account during research. TMS coil direction
+alone has been hypothesized to preferentially activate different
+populations of M1 interneurons, resulting in different effects on the
+MEP (Figure 3.). Alternate coils (H-Coils), have been devised to reduce
+any pulse-to-pulse variability in position due to experimenter error,
+but they are so far largely restricted to clinical settings.
+Additionally, stands used to hold the TMS coil to the head of the
+participant can also eliminate placement variability, but require
+immobility on the part of the participant, which can limit the
+flexibility of behavioral tasks. Ultimately, even when the TMS coil
+position is inert, MEP amplitudes are known to be vary pulse-to-pulse
+and can be suppressed by the TMS pulses themselves over the course of a
+longer experiment. TMS pulses also produce loud sounds and haptic
+sensations on the skull, which can become distracting and/or startling
+at higher intensities, and activate other, non-target, muscles. Finally,
+patients with epilepsy or traumatic brain injury are often excluded from
+TMS studies as a precaution, which eliminates the prospect of studying
+inhibition in such a unique population. Human studies looking at
+Cortico-Spinal inhibition with TMS must be designed such that they
+accommodate these physiological drawbacks. While TMS still remains a
+wonderful method for many task paradigms, it becomes particularly
+troublesome in tasks where small effect sizes may be susceptible to MEP
+variability, the patient population cannot use TMS, or where
+loud/jarring TMS pulses could alter the inhibitive responses.
+
+The challenges of using TMS to measure inhibition have prompted the
+investigation into more universal methods. Some recent research has
+focused on correlating Electroencephalography (EEG) signatures
+(fronto-central P3), with decreased force output and/or reduced muscular
+activity. For example, in tasks where inhibition promoting (unexpected)
+stimuli are presented, participants can be instructed to hold a force
+meter at a constant level (Figure 4.). Previous findings have shown that
+both EEG signatures and force output of the hand show distinct
+modulations following unexpected stimuli, which are consistent with an
+inhibitory process (Figure 5.). Further investigations are currently
+underway to evaluate if the EEG/Force method of measuring Cortico-Spinal
+inhibition can viably substitute for TMS, during cognitive tasks. If so,
+many of the previously unavailable task paradigms and patient
+populations will be open for use in probing the questions regarding
+inhibition.
+
+\end{document}
