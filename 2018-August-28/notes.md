@@ -52,3 +52,7 @@
 
 - Fellowships
   - training plan weighed as much or more than the actual science
+
+- Boilerplate (NRSA)
+  - taking text for boilerplate text
+  - Contact editing core for text
