@@ -1,0 +1,141 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\textbf{Note to reader}: This is the introduction of a manuscript titled
+``Time of day and a ketogenic diet influence susceptibility to SUDEP in
+\emph{Scn1a \textsuperscript{R1407X/+}} mice''. This was submitted but
+will likely bounce back with a bunch of reviewers' comments. I wanted to
+take this opportunity to revisit my introduction and make sure it makes
+sense to the reader in terms of content and flow. I'm only including the
+abstract here for those that want more context, so don't feel like you
+have to revise it. Thank you for your thoughtful feedback!
+
+\textbf{Abstract}
+
+Sudden unexpected death in epilepsy (SUDEP) is a major cause of
+mortality in patients with drug-resistant epilepsy. Most SUDEP cases
+occur in bed at night and are preceded by a generalized tonic-clonic
+seizure (GTCS) and. Dravet syndrome (DS) is a severe childhood-onset
+epilepsy commonly caused by mutations in the \emph{SCN1A} gene. Affected
+individuals suffer from refractory seizures and an increased risk of
+SUDEP. Here, we demonstrate that mice with the
+\emph{Scn1a\textsuperscript{R1407X/+}} loss-of-function mutation
+experience more spontaneous seizures and SUDEP during the early night.
+In DS mice we evaluate effects of long-term ketogenic diet (KD)
+treatment on mortality and seizure frequency. DS mice showed high
+premature mortality (44\% survival by P60) that was associated with
+increased spontaneous GTCSs 1-2 days prior to death. KD treated mice had
+a significant reduction in mortality (86\% survival by P60) compared to
+mice fed a control diet. Interestingly, increased survival was not
+associated with decreased spontaneous non-fatal seizures. Further
+studies are needed to determine how KD confers protection from SUDEP.
+Moreover, our findings implicate time of day as a factor influencing the
+occurrence of seizures and SUDEP. DS mice, though nocturnal, are more
+likely to have SUDEP at night, suggesting that the increased incidence
+of SUDEP at night in DS mice may not be solely due to sleep.
+
+\textbf{INTRODUCTION}
+
+Sudden unexpected death in epilepsy (SUDEP) is estimated to occur in
+\textasciitilde{}17\% of patients with epilepsy\textsuperscript{1}. This
+number can drastically increase to 50\% in patients with poorly
+controlled and severe epilepsy\textsuperscript{2}. Although the
+mechanisms underlying SUDEP are not fully understood, an increasing body
+of evidence suggests SUDEP is due to seizure-induced cardiorespiratory
+dysfunction\textsuperscript{3,4}. However, little is known about the
+circumstances leading up to SUDEP. A strong association with sleep has
+been documented in a number of studies\textsuperscript{3,5}. Although a
+significant majority of patients are found in bed in the prone position
+at the time of death\textsuperscript{6-8}, the occurrence of SUDEP
+during sleep varies widely among published case
+studies\textsuperscript{9}. This suggests that other circadian factors
+may be relevant.
+
+Dravet Syndrome (DS) is a devastating epileptic encephalopathy of
+childhood-onset that typically manifests as febrile seizures in the
+first year of life and progresses to refractory
+epilepsy\textsuperscript{10}. Children with DS develop several
+comorbidities, such as ataxia, sleep disturbance and cognitive
+impairments\textsuperscript{11}. In patients with DS, the risk of SUDEP
+is estimated to be 15 times higher than in other pediatric epilepsies.
+Premature death occurs in 21\% of DS patients, with SUDEP accounting for
+nearly half of these deaths\textsuperscript{12}. Approximately 85\% of
+DS cases are caused by dominant loss-of-function mutations of the
+\emph{SCN1A} gene, which encodes the neuronal voltage-gated sodium
+channel Nav1.1\textsuperscript{11,13}. DS mouse models have proven to be
+an efficient research tool for understanding the pathophysiology of
+SUDEP as they recapitulate many aspects of the clinical condition: they
+have spontaneous seizures and a high incidence of premature
+mortality\textsuperscript{14}. They also display impaired sleep
+architecture homeostasis\textsuperscript{10}.
+
+A recent study found that time of day can have an independent influence
+on physiological changes associated with a seizure, particularly
+breathing\textsuperscript{15}. This is important as seizure-induced
+changes in respiratory physiology contribute to SUDEP in
+patients\textsuperscript{3,16-22} and in DS mice\textsuperscript{14}. In
+the present study, we aimed to determine in DS mice whether: 1)
+spontaneous seizures and SUDEP are more likely to occur in the light or
+dark phase; 2) seizure frequency changes in the days prior to SUDEP; and
+3) treatment with a high-fat, low-carbohydrate ketogenic diet (KD),
+which has been proven to be protective in other seizure
+models\textsuperscript{23,24}, results in fewer spontaneous seizures and
+death.
+
+\end{document}
